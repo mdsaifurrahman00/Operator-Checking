@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" sizes="32px" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <title>operator checking</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="logo.png" alt="">
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <form>
+        <div class="input">
+          <input type="number" class="form-control w-50" id="number" placeholder="Enter Phone Number" />
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="checkOperator()">Submit</button>
+      </form>
+      <div class="operator">
+        <h1>Operator : <span id="result"></span></h1>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="main.js"></script>
+  </body>
+</html>
